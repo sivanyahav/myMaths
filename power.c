@@ -8,7 +8,10 @@ double Exponent (int x){
 double Power(double x, int y){
 
     int iteration;
-
+    
+    /*check if the power iz positive or negitive.
+    if its negitive , we will make it positive. */
+    
     iteration = y<0 ? y*(-1) : y;
      double res=x;
 
